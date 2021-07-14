@@ -1,0 +1,76 @@
+body {
+  font-family: -apple-system, Helvetica, Arial, 'hiragino kaku gothic pro', meiryo, 'Microsoft YaHei', 'ms pgothic',
+    'Apple SD Gothic Neo', 'Nanum Gothic', 'Malgun Gothic', sans-serif;
+}
+
+.nav-area ul {
+  list-style: none;
+}
+
+.nav-area {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+  position: relative;
+}
+
+.nav-sub-area {
+  display: flex;
+  margin: 0 2.5rem;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.nav-logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.nav-categories {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0; */
+}
+
+.nav-categories li {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 15px;
+  /* margin-top: 0.3rem; */
+}
+
+.nav-categories li:hover {
+  border-bottom: 1px blue solid;
+  cursor: pointer;
+}
+
+.sup {
+  color: blue;
+  font-size: xx-small;
+}
+
+.nav-asides ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-asides ul li {
+  padding: 0 0.45rem;
+  font-size: 1.3rem;
+}
+
+.vertical-line {
+  color: gray;
+  padding: 0 0.5rem;
+  margin-left: 1rem;
+}
