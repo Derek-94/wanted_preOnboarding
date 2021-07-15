@@ -3,7 +3,7 @@
   position: fixed;
   top: 52px;
   right: 0;
-  bottom: 55%;
+  bottom: auto;
   left: 0;
   z-index: 99;
   background-color: rgba(0, 0, 0, 0.6);
@@ -26,7 +26,7 @@
 
 .dropdown-area {
   display: flex;
-  padding: 2.5rem 10rem;
+  padding: 2rem 10rem;
   justify-content: space-between;
   flex-basis: auto;
 }
