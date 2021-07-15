@@ -1,0 +1,87 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 52px;
+  right: 0;
+  bottom: 55%;
+  left: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal > section {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  overflow: hidden;
+}
+
+.modal.openDropDown {
+  display: flex;
+  /* 팝업이 열릴때 스르륵 열리는 효과 */
+  animation: modal-bg-show 0.3s;
+}
+
+.dropdown-area {
+  display: flex;
+  padding: 2.5rem 10rem;
+  justify-content: space-between;
+  flex-basis: auto;
+}
+
+.dropdown-area h2 {
+  position: relative;
+  font-size: 17px;
+  color: #333;
+  line-height: 20px;
+  vertical-align: top;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  border: 0;
+  text-align: left;
+}
+
+.dropdown-area h3 {
+  position: relative;
+  font-size: 13px;
+  color: #999;
+  padding: 5px 20px 5px 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  border: 0;
+  text-align: left;
+}
+
+.dropdown-area span {
+  float: right;
+}
+
+@keyframes modal-show {
+  from {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes modal-bg-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
