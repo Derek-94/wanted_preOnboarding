@@ -16,6 +16,8 @@
 
   - CRA로 셋업
 
+  - eslint, prettier 사용.
+
 - React Hooks
 
 - Semantic-UI-React
