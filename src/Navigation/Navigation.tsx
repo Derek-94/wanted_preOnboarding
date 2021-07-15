@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { NavigationProps } from '../interface/propsInterface';
+
 import { Icon, Label } from 'semantic-ui-react';
 
 import DropDown from '../Dropdown/Dropdown';
 
 import '../css/navigation.css';
 
-const Navigation = ({ openState, setOpenState }: any) => {
+const Navigation = ({ openState, setOpenState }: NavigationProps) => {
   const openDropdown = () => {
     setOpenState(true);
     if (!document.querySelector('.contents-area')?.classList.contains('blur')) {
@@ -43,7 +45,7 @@ const Navigation = ({ openState, setOpenState }: any) => {
             </li>
           </div>
         </ul>
-        <DropDown open={openState} close={closeDropdown} />
+        <DropDown open={openState} />
         <aside className="nav-asides">
           <ul>
             <li>

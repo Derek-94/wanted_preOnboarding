@@ -1,9 +1,10 @@
 import React from 'react';
+import { DropDownProps } from '../interface/propsInterface';
 import { Icon } from 'semantic-ui-react';
 
 import '../css/dropdown.css';
 
-const DropDown = ({ open, close }: any) => {
+const DropDown = ({ open }: DropDownProps) => {
   return (
     <div className={open ? 'openDropDown modal' : 'modal'}>
       {open ? (

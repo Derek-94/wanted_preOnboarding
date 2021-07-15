@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import MainPage from './App';
+import MainPage from './MainPage/MainPage';
 
 const Router = () => (
   <>

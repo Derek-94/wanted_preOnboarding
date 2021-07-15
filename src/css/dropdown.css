@@ -46,6 +46,7 @@
   margin: 0;
   border: 0;
   text-align: left;
+  cursor: pointer;
 }
 
 .dropdown-area h3 {
@@ -60,6 +61,7 @@
   margin: 0;
   border: 0;
   text-align: left;
+  cursor: pointer;
 }
 
 .dropdown-area span {
